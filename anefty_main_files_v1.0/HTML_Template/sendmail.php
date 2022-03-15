@@ -4,8 +4,8 @@
 
 // Settings
 $settings = array(
-    "name"          => "Name",
-    "email"         => "example@domain.com",
+    "name"          => "midhun",
+    "email"         => "talksree@gmail.com",
 );
 
 require_once "phpmailer/contact_form.php";

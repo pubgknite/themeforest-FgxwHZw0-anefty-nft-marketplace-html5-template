@@ -1,7 +1,7 @@
 "use strict";
 
 /*---------------------------------------------
-Template name :  Anefty
+Template name :  Knitef3
 Version       :  1.0
 Author        :  ThemeLooks
 Author url    :  http://themelooks.com
