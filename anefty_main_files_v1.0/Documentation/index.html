@@ -1,0 +1,1559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Page Title -->
+    <title>Anefty Documentetion</title>
+
+    <!-- Meta Data -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.png" />
+
+    <!-- ======= Bootstrap 5 ======= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link href="assets/css/prism.css" rel="stylesheet">
+
+    <style>
+        /* Documentetion */
+        img {
+            max-width: 100%;
+        }
+        .main {
+            flex: 1 1 auto;
+            height: 1%;
+            background-color: #f1f3f4;
+        }
+
+        .position-sticky {
+            top: 0;
+        }
+
+        .main ul:last-child {
+            margin-bottom: 0;
+        }
+
+        .main ul li,
+        .main ol li {
+            margin: 5px 0;
+        }
+
+        #main-nav li h5 {
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        #main-nav .nav-link {
+            padding: 0;
+        }
+
+        .changelogs p:nth-of-type(odd) {
+            background-color: #fbfbfb;
+        }
+    </style>
+
+</head>
+
+<body class="min-vh-100 d-flex flex-column">
+    <!-- Header -->
+    <header class="header py-3 bg-primary">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-6">
+                    <h5 class="text-white mb-0">Anefty Documentetion</h5>
+                </div>
+
+                <div class="col text-end">
+                    <a href="#" class="btn bg-white text-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Main -->
+    <main class="main py-5">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-3 bg-light" id="main-nav">
+                    <!-- Navigation -->
+                    <ul class="nav flex-column position-sticky p-3">
+                        <li class="nav-item">
+                            <h5 class="text-uppercase">Welcome</h5>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#intro">Intro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#feature">Template Feature</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#folderStructure">Folder Structure</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <h5 class="text-uppercase mt-2">Setup and Installation</h5>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#installation">Installation</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#buildApp">Build & Deploy</a>
+                        </li> -->
+
+                        <li class="nav-item">
+                            <h5 class="text-uppercase mt-2">Customization</h5>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#html_structure">HTML Structure</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#css_structure">CSS Structure</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#js_structure">JS Structure</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#faq">FAQ</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <h5 class="text-uppercase mt-2">SOURCE AND CREADITS</h5>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#source">Source and Creadits</a>
+                        </li>
+                    </ul>
+                    <!-- End Navigation -->
+                </div>
+
+                <div class="col-9" data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0">
+                    <div class="bg-white p-4 h-100">
+                        <!-- Intro -->
+                        <section class="mb-5" id="intro">
+                            <h2>Thank you for Purchasing</h2>
+                            <p>Thank you for purchasing our Template. If you have any questions that are beyond the scope of this documentation file, please feel free to email via our <a href="https://themeforest.net/user/themelooks#contact">user page contact form</a>. Thank you so much!</p>
+                            <hr>
+
+                            <div class="mb-3">
+                                <a href="https://themeforest.net/user/themelooks#contact"
+                                    class="btn btn-primary btn-large">Contact</a>
+                                <a href="http://themelooks.com/support/" class="btn btn-primary btn-large">Support</a>
+                            </div>
+
+                            <ul>
+                                <li>Author: <a href="http://themelooks.com/">ThemeLooks</a></li>
+                                <li>Profile: <a
+                                        href="https://themeforest.net/user/themelooks">https://themeforest.net/user/themelooks</a>
+                                </li>
+                                <li>Website: <a href="http://themelooks.com/">http://themelooks.com/</a></li>
+                                <li>Support Forum: <a
+                                        href="http://themelooks.com/support/">http://themelooks.com/support/</a></li>
+                            </ul>
+
+                            <div class="card p-3 mb-3">
+                                <h2 class="mb-0">How to get help:</h2>
+                                <hr>
+                                <p>We run support 24/7. You can expect a response within 24 hours.</p>
+
+                                <ul>
+                                    <li class="text-success border-bottom pb-2 mb-0 d-block fw-bold fs-6">
+                                        <strong>Support Requests Are For:</strong></li>
+                                    <li>- Helping Using This Template</li>
+                                    <li>- Instructions Setting Up This Template</li>
+                                    <li>- Bug Reports And Fixes</li>
+                                </ul>
+                                <ul>
+                                    <li class="text-danger border-bottom pb-2 mb-0 d-block fw-bold fs-6">
+                                        <strong>Support Requests Aren’t For:</strong></li>
+                                    <li>- Helping With 3rd Party Plugins</li>
+                                    <li>- Integration of 3rd Party Plugins</li>
+                                    <li>- Free Customization Requests of Our Template</li>
+                                </ul>
+                            </div>
+
+                            <p class="bg-success p-3 text-white">
+                                <strong><i>[Note: Need Some Premium Customization Done? Contact Us Via Our <a
+                                            class="text-danger"
+                                            href="https://themeforest.net/user/themelooks#contact">User Page Contact
+                                            Form</a>.
+                                        ]</i></strong></p>
+
+                            <hr>
+                            <h3>Anefty || NFT Marketplace HTML5 Template.</h3>
+                            <h5>Version 1.0</h5>
+                            <hr>
+                            <p> <b>Anefty</b> is a <b>NFT Marketplace HTML5 Template.</b> It’s made with the latest Technology like SCSS + Gulp, Bootstrap and Jquery3. Anefty is the best HTML template for any kind of NFT Marketplace, digital marketplace, crypto-collectibles, digital art websites, creating friendly community with hundreds of members. well sorted documentation makes it very easy to customize.</p>
+
+                            <p>It’s 100% super responsive and it works nicely on smartphones, tablets, & desktops. All files code have been well organized and nicely commented.</p>
+                        </section>
+                        <!-- End Intro -->
+
+                        <!-- Feature -->
+                        <section class="mb-5" id="feature">
+                            <h2>Template Features</h2>
+                            <hr>
+                            <ul>
+                                <li>Bootstrap</li>
+                                <li>3 Unique Homepage</li>
+								<li>18+ Inner Pages</li>
+								<li>Component based design</li>
+								<li>Clean and Mordern Design</li>
+								<li>Super Responsive</li>
+								<li>Awesome custom Icons</li>
+								<li>Header, Footer and Layout Variation</li>
+								<li>Sticky Menu</li>
+								<li>Google Font</li>
+								<li>Wide Layouts</li>
+								<li>Working Contact Form</li>
+								<li>Coming Soon Page</li>
+								<li>404 Page</li>
+								<li>Google Map</li>
+								<li>Modern Cross Browser Support</li>
+								<li>Pixel Perfect Design</li>
+								<li>W3C Validated Code</li>
+								<li>Well Documented</li>
+								<li>Error Free Code</li>
+								<li>Life Time Updates</li>
+								<li>Exclusive Support</li>
+								<li>In Depth Documentation</li>
+								<li>Free Updates</li>
+								<li>and much more...</li>
+                            </ul>
+                        </section>
+                        <!-- End Feature -->
+
+                        <!-- Folder Structure -->
+                        <section class="mb-5" id="folderStructure">
+                            <h2>Folder Structute</h2>
+                            <hr>
+
+                            <pre class="bg-light">
+    Anefty/
+    ├── HTML
+    │   └─── assets
+    │       └─── css
+    │       └─── img
+    │       └─── js
+    │       └─── plugins
+    │       └─── sass
+    │       └─── webfonts
+    │   └─── phpmailer
+    │       └─── contact_form.php
+    │       └─── Exception.php
+    │       └─── OAuth.php
+    │       └─── PHPMailer.php
+    │       └─── POP3.php
+    │       └─── SMTP.php
+    │   ├── 404.html
+    │   ├── activity.html
+    │   ├── author.html
+    │   ├── blog-details.html
+    │   ├── blog.html
+    │   ├── collection.html
+    │   ├── coming-soon.html
+    │   ├── contact.html
+    │   ├── create.html
+    │   ├── explore.html
+    │   ├── help-center.html
+    │   ├── home-v2.html
+    │   ├── home-v3.html
+    │   ├── home-v4.html
+    │   ├── home-v5.html
+    │   ├── index.html
+    │   ├── item-details.html
+    │   ├── login.html
+    │   ├── profile-edit.html
+    │   ├── profile.html
+    │   ├── ranking.html
+    │   ├── register.html
+    │   ├── sendmail.php
+    │   ├── upload.html
+    │   ├── wallet.html
+    ├── .eslintrc.js
+    ├── .gitignore
+    ├── gulpfile.js
+    ├── package.json
+    ├── package-lock.lock
+    ├── README.md
+    ├── yarn.lock
+                            </pre>
+                        </section>
+                        <!-- End Folder Structure -->
+
+                        <!-- Installation -->
+                        <section class="mb-5" id="installation">
+                            <h2>Installation</h2>
+                            <hr>
+                            <p>To begin installation please follow this guide bellow:</p>
+                            <div class="card p-3">
+                                <h5>Via FTP:</h5>
+                                <ol>
+                                    <li>Open up your <strong>'FTP Software'</strong> of choice and connect to your hosting</li>
+                                    <li>Browse to required directory (Usually: <strong>./public_html</strong>)</li>
+                                    <li>Unzip the <strong>'main_files.zip'</strong> and choose templates to upload.</li>
+                                    <li><strong>Upload</strong> the template to the server.</li>
+                                </ol>
+
+                                <div style="margin-top: 15px; padding: 5px; background-color: #fff; border: 1px solid #e9e9e9;">
+                                    <img src="assets/img/ftp.png" alt="" class="img-responsive" />
+                                </div>
+                            </div>
+                        </section>
+                        <!-- End Installation -->
+
+                        <!-- HTML Structure -->
+                        <section class="mb-5" id="html_structure">
+                            <h2>HTML Structure</h2>
+                            <hr>
+                            <p>The "Anefty" template is a responsive HTML5 template based on Bootstrap. The structure is based on a flexible grid that lets you change HTML pages quickly and logically with a nestable system.</p>
+                            <p>If you would like to edit the layout of any elements in the whole template, you would do the following:</p>
+
+                            <ul>
+                                <li>1. Open any '.html' or '.css' file in a text editor.</li>
+                                <li>2. Find related comment/code.</li>
+                                <li>3. Do your magic.</li>
+                            </ul>
+
+                            <figure class="figure">
+                                <div class="code-toolbar">
+<pre>
+<code class="language-markup">&#x3C;!DOCTYPE html&#x3E;
+    &#x3C;html lang=&#x22;en&#x22;&#x3E;
+    
+    &#x3C;head&#x3E;
+        ...................................
+    &#x3C;/head&#x3E;
+    
+    &#x3C;body data-bg-img=&#x22;assets/img/bg/page-bg.png&#x22;&#x3E;
+    
+        &#x3C;!-- Preloader --&#x3E;
+        &#x3C;div class=&#x22;preloader&#x22;&#x3E;
+            ...................................
+        &#x3C;/div&#x3E;
+        &#x3C;!-- End Preloader --&#x3E;
+    
+        &#x3C;!-- Header --&#x3E;
+        &#x3C;header class=&#x22;header&#x22;&#x3E;
+            ...................................
+        &#x3C;/header&#x3E;
+        &#x3C;!-- End Header --&#x3E;
+    
+        &#x3C;!-- Banner --&#x3E;
+        &#x3C;div class=&#x22;banner ov-hidden&#x22;&#x3E;
+            ...................................
+            ...................................
+        &#x3C;/div&#x3E;
+        &#x3C;!-- End Banner --&#x3E;
+    
+        &#x3C;!-- About --&#x3E;
+        &#x3C;section class=&#x22;pt-120 pb-120&#x22;&#x3E;
+            ...................................
+        &#x3C;/section&#x3E;
+        &#x3C;!-- End About --&#x3E;
+    
+        &#x3C;!-- Video --&#x3E;
+        &#x3C;div class=&#x22;vdo_sec&#x22;&#x3E;
+            ...................................
+        &#x3C;/div&#x3E;
+        &#x3C;!-- End Video --&#x3E;
+    
+        &#x3C;!-- Live Auction --&#x3E;
+        &#x3C;section class=&#x22;pt-120 pb-120 section-shape&#x22;&#x3E;
+            ...................................
+        &#x3C;/section&#x3E;
+        &#x3C;!-- End Live Auction --&#x3E;
+    
+        &#x3C;!-- Explore Feeds --&#x3E;
+        &#x3C;section class=&#x22;pt-120 pb-120&#x22;&#x3E;
+            ...................................
+            ...................................
+        &#x3C;/section&#x3E;
+        &#x3C;!-- End Explore Feeds --&#x3E;
+    
+        &#x3C;!-- Support Center --&#x3E;
+        &#x3C;section class=&#x22;pb-120 mt-lg-120 pt-60 pt-lg-0 section-shape section-shape-right&#x22;&#x3E;
+            ...................................
+        &#x3C;/section&#x3E;
+        &#x3C;!-- End Support Center --&#x3E;
+    
+        &#x3C;!-- Top Collection --&#x3E;
+        &#x3C;section class=&#x22;pt-120 pb-90&#x22;&#x3E;
+            ...................................
+        &#x3C;/section&#x3E;
+        &#x3C;!-- End Top Collection --&#x3E;
+    
+        &#x3C;!-- Footer --&#x3E;
+        &#x3C;footer class=&#x22;footer&#x22;&#x3E;
+            ...................................
+            ...................................
+        &#x3C;/footer&#x3E;
+        &#x3C;!-- End Footer --&#x3E;
+    
+        &#x3C;!-- Back to Top Button --&#x3E;
+        &#x3C;a href=&#x22;#&#x22; class=&#x22;back-to-top&#x22;&#x3E;
+            ...................................
+        &#x3C;/a&#x3E;
+        &#x3C;!-- End Back to Top Button --&#x3E;
+    
+    
+        &#x3C;!-- ======= jQuery Library ======= --&#x3E;
+        &#x3C;script src=&#x22;assets/js/jquery.min.js&#x22;&#x3E;&#x3C;/script&#x3E;
+    
+        &#x3C;!-- ======= Bootstrap Bundle JS ======= --&#x3E;
+        &#x3C;script src=&#x22;assets/js/bootstrap.bundle.min.js&#x22;&#x3E;&#x3C;/script&#x3E;
+    
+        &#x3C;!-- ======= Particles JS ======= --&#x3E;
+        &#x3C;script src=&#x22;assets/plugins/particles/particles.min.js&#x22;&#x3E;&#x3C;/script&#x3E;
+    
+        &#x3C;!-- ======= Menu JS ======= --&#x3E;
+        &#x3C;script src=&#x22; assets/js/menu.min.js&#x22;&#x3E;&#x3C;/script&#x3E;
+    
+        &#x3C;!-- ======= Swiper JS ======= --&#x3E;
+        &#x3C;script src=&#x22;assets/plugins/swiper/swiper-bundle.min.js&#x22;&#x3E;&#x3C;/script&#x3E;
+    
+        &#x3C;!-- ======= Magnific Popup JS ======= --&#x3E;
+        &#x3C;script src=&#x22;assets/plugins/magnific-popup/jquery.magnific-popup.min.js&#x22;&#x3E;&#x3C;/script&#x3E;
+    
+        &#x3C;!-- ======= Countdown JS ======= --&#x3E;
+        &#x3C;script src=&#x22;assets/plugins/countdown/countdown.min.js&#x22;&#x3E;&#x3C;/script&#x3E;
+    
+        &#x3C;!-- ======= Nice select JS ======= --&#x3E;
+        &#x3C;script src=&#x22;assets/plugins/nice-select/jquery.nice-select.min.js&#x22;&#x3E;&#x3C;/script&#x3E;
+    
+        &#x3C;!-- ======= Isotope JS ======= --&#x3E;
+        &#x3C;script src=&#x22;assets/plugins/Isotope/isotope.pkgd.js&#x22;&#x3E;&#x3C;/script&#x3E;
+    
+        &#x3C;!-- ======= Wayoints JS ======= --&#x3E;
+        &#x3C;script src=&#x22;assets/plugins/counterup/waypoints.min.js&#x22;&#x3E;&#x3C;/script&#x3E;
+    
+        &#x3C;!-- ======= CounterUp JS ======= --&#x3E;
+        &#x3C;script src=&#x22;assets/plugins/counterup/jquery.counterup.min.js&#x22;&#x3E;&#x3C;/script&#x3E;
+    
+        &#x3C;!-- ======= Main JS ======= --&#x3E;
+        &#x3C;script src=&#x22;assets/js/main.js&#x22;&#x3E;&#x3C;/script&#x3E;
+    
+        &#x3C;!-- ======= Custom JS ======= --&#x3E;
+        &#x3C;script src=&#x22;assets/js/custom.js&#x22;&#x3E;&#x3C;/script&#x3E;
+    &#x3C;/body&#x3E;
+    &#x3C;/html&#x3E;
+</code>
+</pre>
+                                </div>
+                            </figure>
+                        </section>
+                        <!-- End HTML Structure -->
+
+                        <!-- CSS Structure -->
+                        <section class="mb-5" id="css_structure">
+                            <h2>CSS Structure</h2>
+                            <hr>
+                            <p>In our style.css file all the code are well structured as well as well commented. Here is the sample</p>
+
+                            <figure class="figure">
+                                
+                                <div class="code-toolbar">
+<pre>
+<code class="language-css">
+    /*
+	*******************
+	Template name:  Anefty
+	Version:        1.0
+	Author:         Themelooks
+	Author url:     http://themelooks.com
+
+	NOTE:
+	-----
+	Please DO NOT EDIT THIS CSS, you may need to use "custom.css" file for writing your custom css.
+	We may release future updates so it will overwrite this file. it's better and safer to use "custom.css".
+
+    ******** CSS INDEX ********
+    01. Base
+        1.1 Reset 
+        1.2 Spacing
+        1.3 Color
+    02. Components
+        2.1 Helper
+        2.2 Animation
+        2.3 Social List
+        2.4 Inputs
+        2.5 Buttons
+        2.6 Products
+        2.7 Widget
+        2.8 Title
+        2.9 Pagination
+        2.10 BackToTop
+        2.11 Preloader
+        2.12 Breadcrumb
+    03. Layout
+        3.1 Header
+        3.2 Footer
+        3.3 Blog
+        3.4 404
+        3.5 Coming Soon
+        3.6 Banner
+    04. Section
+        4.1 Small Sections
+        4.2 About
+        4.3 Auction
+        4.4 Support
+        4.5 Collection
+        4.6 Trending
+        4.7 Sell NFT
+        4.8 Feature
+        4.9 Category
+        4.10 Author
+        4.11 Contact
+    ********************/
+</code>
+</pre>
+                                </div>
+                                <div class="code-toolbar">
+<pre>
+<code class="language-css">
+    /* ************************
+   01.1: Reset
+   ********************* */
+:root {
+  --c1: #ff0076;
+  --c2: #590f87;
+  --title-color: #02072e;
+  --text-color: #666666;
+  --border-color: #dddddd;
+  --white: #ffffff;
+  --black: #000000;
+  --body-bg: #071838;
+  --title-font: "Lexend", sans-serif;
+  --body-font: "Roboto", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+  outline: none !important;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+
+body {
+  margin: 0;
+  font-family: var(--body-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(28 / 16);
+  color: var(--text-color);
+  text-align: left;
+  background-color: var(--body-bg);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden !important;
+}
+</code>
+</pre>
+                                </div>
+
+                            </figure>
+                        </section>
+                        <!-- End CSS Structure -->
+
+                        <!-- JS Structure -->
+                        <section class="mb-5" id="js_structure">
+                            <h2>JS Structure</h2>
+                            <hr>
+                            <p>In our main.js file all the code are well structured as well as well commented. Here is the sample</p>
+
+                            <figure class="figure">
+                                <div class="code-toolbar">
+<pre>
+<code class="language-js">
+    /*---------------------------------------------
+Template name :  Anefty
+Version       :  1.0
+Author        :  ThemeLooks
+Author url    :  http://themelooks.com
+
+NOTE:
+------
+Please DO NOT EDIT THIS JS, you may need to use "custom.js" file for writing your custom js.
+We may release future updates so it will overwrite this file. it's better and safer to use "custom.js".
+
+[Table of Content]
+
+    01: Main Menu
+    02: Sticky Nav
+    03: Submenu Responsive
+    04: Background Image
+    05: Check Data
+    06: Swiper
+    07: Changing svg color
+    08: Google map
+    09: Preloader
+    10: Contact Form
+    11: Back to top button
+    12: Mobile Menu
+    13: particlesJS
+    14: Love React
+    15: Countdown Timer
+    16: Magnific Popup
+    17: Nice Select
+    18: Isotope
+    19: Follow Button
+    20: Banner Mousemove
+    21: Counter Up
+    22: Copy Clipboard
+    23: Increase/Decrease Product Quantity
+      23.1: Increase
+      23.2: Decrease
+    24: Contact Form
+    25: currentYear
+----------------------------------------------*/
+</code>
+</pre>
+                                </div>
+
+                                <div class="code-toolbar">
+<pre>
+<code class="language-js">
+    (function ($) {
+        "use strict";
+      
+        /*===================
+        01: Main Menu
+        =====================*/
+        $('ul.nav li a[href="#"]').on("click", function (event) {
+          event.preventDefault();
+        });
+      
+        /* Menu Maker */
+        $(".nav-wrapper").menumaker({
+          title: "<span></span>",
+          format: "multitoggle",
+        });
+      
+        $($(window)).on("scroll", function () {
+          if (!$("ul.nav").hasClass("open")) {
+            $("#menu-button").removeClass("menu-opened");
+          }
+        });
+      
+        function mobileMenu() {
+          if ($(window).width() < 1200) {
+            $(".nav-wrapper .nav-wrap-inner").hide();
+          } else {
+            $(".nav-wrapper .nav-wrap-inner").show();
+          }
+        }
+      
+        $(window).on("resize", function () {
+          mobileMenu();
+        });
+        mobileMenu();
+</code>
+</pre>
+                                </div>
+                            </figure>
+                        </section>
+                        <!-- End JS Structure -->
+
+                        <!-- FAQ -->
+                        <section class="mb-5" id="faq">
+                            <h2>FAQ</h2>
+                            <p>Here is some commonly asked quistions.</p>
+                            <hr>
+
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingZero">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseZero" aria-expanded="true"
+                                            aria-controls="collapseZero">
+                                            How to Remove Preloader?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseZero" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingZero" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'index.html'</strong>).</li>
+                                                <li>Find the comment <strong>'Preloader'</strong></li>
+                                                <li>Remove Code Block.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/preloader.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            How to Change Logo?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'index.html'</strong>).</li>
+                                                <li>Find the comment <strong>'Start Logo'</strong></li>
+                                                <li>Edit Code.</li>
+                                            </ul>
+
+                                            <strong> [Default Logo] </strong>
+                                            <figure class="figure">
+                                                <img src="assets/img/logo.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/logo-code.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                            <br>
+                                            <br>
+                                            <strong> [Sticky Logo] </strong>
+                                            <figure class="figure">
+                                                <img src="assets/img/logo-sticky.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/logo-sticky-code.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseTwo" aria-expanded="true"
+                                            aria-controls="collapseTwo">
+                                            How to change menu items?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'index.html'</strong>).</li>
+                                                <li>Find the comment <strong>'Nav'</strong></li>
+                                                <li>Edit Code.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/menu.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/menu-code.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading3">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse3" aria-expanded="true"
+                                            aria-controls="collapse3">
+                                            How to Remove Sticky Menu?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse3" class="accordion-collapse collapse"
+                                        aria-labelledby="heading3" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'index.html'</strong>).</li>
+                                                <li>Find the comment <strong>'Header Main'</strong></li>
+                                                <li>Remove This Class "love-sticky".</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/sticky-menu.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/sticky-menu-code.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading4">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse4" aria-expanded="true"
+                                            aria-controls="collapse4">
+                                            How to change Banner?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse4" class="accordion-collapse collapse"
+                                        aria-labelledby="heading4" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'index.html'</strong>).</li>
+                                                <li>Find the comment <strong>'Banner'</strong></li>
+                                                <li>Edit Code.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/banner.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/banner-code.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading5">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse5" aria-expanded="true"
+                                            aria-controls="collapse5">
+                                            How to change About?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse5" class="accordion-collapse collapse"
+                                        aria-labelledby="heading5" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'index.html'</strong>).</li>
+                                                <li>Find the comment <strong>'About'</strong></li>
+                                                <li>Edit Code.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/about.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/about-code.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading6">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse6" aria-expanded="true"
+                                            aria-controls="collapse6">
+                                            How to change Video Card?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse6" class="accordion-collapse collapse"
+                                        aria-labelledby="heading6" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'index.html'</strong>).</li>
+                                                <li>Find the comment <strong>'Video Buttton Wrapper'</strong></li>
+                                                <li>Edit Code.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/video-btn.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/video-btn-code.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading7">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse7" aria-expanded="true"
+                                            aria-controls="collapse7">
+                                            How to change Product?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse7" class="accordion-collapse collapse"
+                                        aria-labelledby="heading7" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'index.html'</strong>).</li>
+                                                <li>Find the comment <strong>'Single Product'</strong></li>
+                                                <li>Edit Code.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/product.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/product-code.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading8">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse8" aria-expanded="true"
+                                            aria-controls="collapse8">
+                                            How to change Section Title?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse8" class="accordion-collapse collapse"
+                                        aria-labelledby="heading8" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'index.html'</strong>).</li>
+                                                <li>Find the comment <strong>'Section Title'</strong></li>
+                                                <li>Edit Code.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/section-title.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/section-title-code.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading9">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse9" aria-expanded="true"
+                                            aria-controls="collapse9">
+                                            How to change Collection?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse9" class="accordion-collapse collapse"
+                                        aria-labelledby="heading9" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'index.html'</strong>).</li>
+                                                <li>Find the comment <strong>'Collection'</strong></li>
+                                                <li>Edit Code.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/collection.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/collection-code.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading10">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse10" aria-expanded="true"
+                                            aria-controls="collapse10">
+                                            How to change Footer?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse10" class="accordion-collapse collapse"
+                                        aria-labelledby="heading10" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'index.html'</strong>).</li>
+                                                <li>Find the comment <strong>'Footer'</strong></li>
+                                                <li>Edit Code.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/footer.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/footer-code.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading11">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse11" aria-expanded="true"
+                                            aria-controls="collapse11">
+                                            How to change Home3 Banner?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse11" class="accordion-collapse collapse"
+                                        aria-labelledby="heading11" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'home-v3.html'</strong>).</li>
+                                                <li>Find the comment <strong>'Banner'</strong></li>
+                                                <li>Edit Code.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/home3-banner.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/home3-banner-code.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading12">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse12" aria-expanded="true"
+                                            aria-controls="collapse12">
+                                            How to change Category?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse12" class="accordion-collapse collapse"
+                                        aria-labelledby="heading12" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'home-v3.html'</strong>).</li>
+                                                <li>Find the comment <strong>'Trending Profile'</strong></li>
+                                                <li>Edit Code.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/category.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/category-code.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading13">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse13" aria-expanded="true"
+                                            aria-controls="collapse13">
+                                            How to change Create & Sell NFTS?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse13" class="accordion-collapse collapse"
+                                        aria-labelledby="heading13" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'home-v3.html'</strong>).</li>
+                                                <li>Find the comment <strong>'Sell NFTs'</strong></li>
+                                                <li>Edit Code.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/sell-nft.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/sell-nft-code.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading14">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse14" aria-expanded="true"
+                                            aria-controls="collapse14">
+                                            How to change Newsletter?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse14" class="accordion-collapse collapse"
+                                        aria-labelledby="heading14" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'home-v3.html'</strong>).</li>
+                                                <li>Find the comment <strong>'Newsletter'</strong></li>
+                                                <li>Edit Code.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/newsletter.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/newsletter-code.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading15">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse15" aria-expanded="true"
+                                            aria-controls="collapse15">
+                                            How to change Home4 Banner?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse15" class="accordion-collapse collapse"
+                                        aria-labelledby="heading15" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'home-v4.html'</strong>).</li>
+                                                <li>Find the comment <strong>'Banner'</strong></li>
+                                                <li>Edit Code.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/banner4-code.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/banner4.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading16">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse16" aria-expanded="true"
+                                            aria-controls="collapse16">
+                                            How to change Featured Artists?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse16" class="accordion-collapse collapse"
+                                        aria-labelledby="heading16" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'home-v4.html'</strong>).</li>
+                                                <li>Find the comment <strong>'Featured Artists'</strong></li>
+                                                <li>Edit Code.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/feature-artist.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/feature-artist-code.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading17">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse17" aria-expanded="true"
+                                            aria-controls="collapse17">
+                                            How to change Category2?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse17" class="accordion-collapse collapse"
+                                        aria-labelledby="heading17" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'home-v4.html'</strong>).</li>
+                                                <li>Find the comment <strong>'Category'</strong></li>
+                                                <li>Edit Code.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/category2.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/category2-code.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading18">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse18" aria-expanded="true"
+                                            aria-controls="collapse18">
+                                            How to change Profile Page?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse18" class="accordion-collapse collapse"
+                                        aria-labelledby="heading18" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'profile.html'</strong>).</li>
+                                                <li>Find the comment <strong>'Author'</strong></li>
+                                                <li>Edit Code.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/profile.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/profile-code.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading19">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse19" aria-expanded="true"
+                                            aria-controls="collapse19">
+                                            How to change Wallet?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse19" class="accordion-collapse collapse"
+                                        aria-labelledby="heading19" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'wallet.html'</strong>).</li>
+                                                <li>Find the comment <strong>'Wallet'</strong></li>
+                                                <li>Edit Code.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/wallet.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/wallet-code.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading20">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse20" aria-expanded="true"
+                                            aria-controls="collapse20">
+                                            How to change Item Details?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse20" class="accordion-collapse collapse"
+                                        aria-labelledby="heading20" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'item-details.html'</strong>).</li>
+                                                <li>Find the comment <strong>'Item Details'</strong></li>
+                                                <li>Edit Code.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/item-details.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/item-details-code.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading21">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse21" aria-expanded="true"
+                                            aria-controls="collapse21">
+                                            How to change Login?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse21" class="accordion-collapse collapse"
+                                        aria-labelledby="heading21" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'login.html'</strong>).</li>
+                                                <li>Find the comment <strong>'Login'</strong></li>
+                                                <li>Edit Code.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/login.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/login-code.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading22">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse22" aria-expanded="true"
+                                            aria-controls="collapse22">
+                                            How to change Register?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse22" class="accordion-collapse collapse"
+                                        aria-labelledby="heading22" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'register.html'</strong>).</li>
+                                                <li>Find the comment <strong>'Register'</strong></li>
+                                                <li>Edit Code.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/register.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/register-code.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading23">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse23" aria-expanded="true"
+                                            aria-controls="collapse23">
+                                            How to change 404?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse23" class="accordion-collapse collapse"
+                                        aria-labelledby="heading23" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'404.html'</strong>).</li>
+                                                <li>Find the comment <strong>'404'</strong></li>
+                                                <li>Edit Code.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/404.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/404-code.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading24">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse24" aria-expanded="true"
+                                            aria-controls="collapse24">
+                                            How to change Coming Soon?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse24" class="accordion-collapse collapse"
+                                        aria-labelledby="heading24" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'coming-soon.html'</strong>).</li>
+                                                <li>Find the comment <strong>'Coming Soon'</strong></li>
+                                                <li>Edit Code.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/coming-soon.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/coming-soon-code.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading25">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse25" aria-expanded="true"
+                                            aria-controls="collapse25">
+                                            How to change Blog?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse25" class="accordion-collapse collapse"
+                                        aria-labelledby="heading25" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'blog.html'</strong>).</li>
+                                                <li>Find the comment <strong>'Single Post Item'</strong></li>
+                                                <li>Edit Code.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/blog.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/blog-code.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading26">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse26" aria-expanded="true"
+                                            aria-controls="collapse26">
+                                            How to change Instafeed?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse26" class="accordion-collapse collapse"
+                                        aria-labelledby="heading26" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'blog.html'</strong>).</li>
+                                                <li>Find the comment <strong>'Instafeed'</strong></li>
+                                                <li>Edit Code.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/insta-feed.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/insta-feed-code.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading27">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse27" aria-expanded="true"
+                                            aria-controls="collapse27">
+                                            How to change Blog Details?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse27" class="accordion-collapse collapse"
+                                        aria-labelledby="heading27" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'blog-details.html'</strong>).</li>
+                                                <li>Find the comment <strong>'Blog Details'</strong></li>
+                                                <li>Edit Code.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/blog-details.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/blog-details-code.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/blog-details-code2.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading28">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse28" aria-expanded="true"
+                                            aria-controls="collapse28">
+                                            How to change Contact form?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse28" class="accordion-collapse collapse"
+                                        aria-labelledby="heading28" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'.html'</strong> file in a text editor (For example: <strong>'contact.html'</strong>).</li>
+                                                <li>Find the comment <strong>'Contact Form'</strong></li>
+                                                <li>Edit Code.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/contact-form.png" class="figure-img img-fluid" alt="">
+                                                <img src="assets/img/contact-form-code.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading52">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse52" aria-expanded="true"
+                                            aria-controls="collapse52">
+                                            How to change email and name to send form data?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse52" class="accordion-collapse collapse"
+                                        aria-labelledby="heading52" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>Open <strong>'sendmail.php'</strong> file in a text editor.</li>
+                                                <li>Find the comment <strong>'Replace this with your own email address'</strong></li>
+                                                <li>Edit email and name.</li>
+                                            </ul>
+                                            
+                                            <figure class="figure">
+                                                <img src="assets/img/sendmail.png" class="figure-img img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- End FAQ -->
+
+                        <!-- CREADITS -->
+                        <section class="mb-5" id="source">
+                            <h2>SOURCE AND CREADITS</h2>
+                            <hr>
+
+                            <div class="card p-3 mb-4">
+                                <h5 class="mb-0">Photos:</h5>
+                                <hr>
+                                <ul>
+                                    <li>All 'images' used on the demo site is for demonstration purposes only and are not included in the main download file. </li>
+                                    <li>All images collected from 'Google Image Search'</li>
+                                </ul>
+                            </div>
+
+                            <div class="card p-3 mb-4">
+                                <h5 class="mb-0">Font:</h5>
+                                <hr>
+                                <ul>
+                                    <li><a href="https://fonts.google.com" target="_blank">Google Fonts</a> ("Lexend", "Roboto")
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="card p-3 mb-4">
+                                <h5 class="mb-0">Frameworks / Libraries:</h5>
+                                <hr>
+                                <ul>
+                                    <li>
+                                        <a href="https://jquery.com/"  target="_blank">Jquery</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://getbootstrap.com/"  target="_blank">Twitter Bootstrap</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="card p-3 mb-4">
+                                <h5 class="mb-0">Plugins:</h5>
+                                <hr>
+                                <ul>
+                                    <li>
+                                        <a href="https://github.com/VincentGarreau/particles.js/" target="_blank">particles</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/nolimits4web/swiper"  target="_blank">Swiper Slider</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/dimsemenov/Magnific-Popup" target="_blank">Magnific Popup</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/hilios/jQuery.countdown" target="_blank">Countdown</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/hernansartorio/jquery-nice-select" target="_blank">nice-select</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/metafizzy/isotope" target="_blank">Isotope</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/imakewebthings/waypoints" target="_blank">waypoints</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/bfintal/Counter-Up2" target="_blank">counterup</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="card p-3 mb-4">
+                                <h5 class="mb-0">Change Logs</h5>
+                                <hr>
+                                <div class="changelogs">
+                                    <p class="p-3 mb-0">
+                                        <strong>02/05/2022</strong> <br>
+                                        <code>First release</code>
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- End CREADITS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- End Main -->
+
+    <!-- Footer -->
+    <footer class="footer py-3">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col text-center">
+                    <small>Copyright © <span class="currentYear">2022</span> <a href="https://www.themelooks.com/">themelooks</a>. All Rights
+                        Reserved.</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/prism.js"></script>
+    <script>
+        document.querySelector('.currentYear').innerHTML = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
